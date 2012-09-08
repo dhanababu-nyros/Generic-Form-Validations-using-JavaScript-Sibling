@@ -1,0 +1,46 @@
+<!DOCKTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link  rel="stylesheet" type="text/css" href="css/style.css"/>
+	<script type="text/javascript" src="js/validate.js"></script>
+	<title>validate form</title>
+</head>
+<body>
+<section class="main">
+<FORM name=f1 onsubmit="return validateForm(document.f1)">
+	<h1>Account Information</h1>
+  <label>User Name:</label><input type=text name="User_Name"  value=""  >
+  <p></p>
+  <label>Password:</label><input type=password name="password"  value="" ><BR>
+  <p></p>
+  <strong>Languages Known:</strong>
+ <label>English</label>
+  <input type=checkbox name=Language  value="english" >
+ <label>Telugu</label>
+  <input type=checkbox name=Language  value="telugu">
+  <label>Hindi</label>
+  <input type=checkbox name=Language  value="hindi"><br>
+	<p></p>
+  <strong>Country:</strong>
+  <select name=Country>
+	<option value="select"  selected="select">--select--</option>
+    <option value="india"  >india</option>
+    <option value="japan" >japan</option>
+    <option value="china" >china</option>
+  </select>
+  <br>
+  <BR>
+   <strong>Hobies:</strong>
+  <label>playing cricket</label>
+  <input type=radio name=Hobies  value="playing cricket">
+ <label>reading books</label>
+  <input type=radio name=Hobies  value="reading books">
+	<label>watching movies</label>
+  <input type=radio name=Hobies  value="watching movies" ><br>
+  <BR>
+  <INPUT id="sub" type=submit value="Submit/Validate">
+</FORM></section>
+</body>
+</html>
+

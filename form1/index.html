@@ -1,0 +1,60 @@
+<!DOCKTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link  rel="stylesheet" type="text/css" href="css/style.css"/>
+	<script type="text/javascript" src="js/validate.js"></script>
+	<title>validate form</title>
+</head>
+<body>
+<section class="main">
+<FORM name=f1 onsubmit="return validateForm(document.f1)">
+	<h1>Account Information</h1>
+	
+  <label>First Name:</label><input type=text name="first_name"  value="">
+  <p></p>
+  <label>Last Name:</label><input type=text name="Last_name"  value="">
+  <p></p>
+  <label>Email</label><input type=text name="Email" Email="email"  value="">
+  <BR>
+  <p></p>
+  <strong>Gender:</strong>
+ <label>male</label>
+  <input type=radio name=Gender  value="male" >
+ <label>female</label>
+  <input type=radio name=Gender  value="female"><br>
+	<p></p>
+  
+  <strong>Date of Birth:</strong>
+  <select name=Date_of_Birth>
+	<option value="select" selected="select">Day</option>
+    <option value="1"  >1</option>
+    <option value="2" >2</option>
+    <option value="3" >3</option>
+  </select>
+  <select name=Date_of_Birth>
+	<option value="select"  SELECTED="select">Month</option>
+    <option value="jan"  >jan</option>
+    <option value="feb" >feb</option>
+    <option value="mar" >mar</option>
+  </select>
+  <select name=Date_of_Birth>
+	<option value="select"  SELECTED="select">Year</option>
+    <option value="2001"  >2001</option>
+    <option value="2002">2002</option>
+    <option value="2003">2003</option>
+  </select>
+  <br>
+  <BR>
+   <strong>Hobies:</strong>
+  <label>playing cricket</label>
+  <input type=checkbox name=Hobies header="Value Checkbox 1-A" value="playing cricket">
+ <label>reading books</label>
+  <input type=checkbox name=Hobies header="Value Checkbox 1-B" value="reading books">
+	<label>watching movies</label>
+  <input type=checkbox name=Hobies header="Value Checkbox 1-C" value="watching movies" ><br>
+  <BR>
+  <INPUT id="sub" type=submit value="Submit/Validate">
+</FORM></section>
+</body>
+</html>

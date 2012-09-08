@@ -1,0 +1,45 @@
+body{
+	 background: none repeat scroll 0 0 #F7F7F7;
+    color: #4D5255;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+	}
+
+.main{
+	background: none repeat scroll 0 0 #FFFFFF;
+	    padding: 40px 20px 40px 200px;
+    width: 500px;
+	margin:30px auto;
+	
+	
+	box-shadow:-2px 8px 4px 2px #747474;
+	border-radius:5px;
+	}
+h1{
+	margin-left:0px;
+	margin-bottom:40px;
+	text-shadow:4px 8px 10px #747474;
+	font-size:30px;
+	}
+#sub{
+	background:#3C0338;
+	padding:10px;
+	border:0px;
+	color:#FFFFFF;
+	float:right;
+	border-radius:5px;
+	}
+#sub:hover {
+		
+	background:#FFC400;
+	padding:10px;
+	border:0px;
+	color:#FFFFFF;
+	float:right;
+	box-shadow:-2px 8px 4px 2px #747474;
+	
+	}
+.main:hover{
+	box-shadow:-2px 8px 4px 2px #00FF00;
+	}
