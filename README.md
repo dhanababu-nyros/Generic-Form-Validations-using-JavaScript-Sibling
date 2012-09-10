@@ -28,7 +28,7 @@ THE APPLICATION CONSISTS:
 	
 	SCREENSHOT FOR FORM1 :-
 
-<img style="max-width:100%;" src="https://raw.github.com/dhanababu-nyros/Generic-Form-Validations-using-JavaScript-Sibling/5248970b11938c4e4a3d0832596e58c81096c29d/Screenshot%20form1.png" alt="formvalidation" title="formvalidation">
+<img style="max-width:70%;max-height:60%" src="https://raw.github.com/dhanababu-nyros/Generic-Form-Validations-using-JavaScript-Sibling/5248970b11938c4e4a3d0832596e58c81096c29d/Screenshot%20form1.png" alt="formvalidation" title="formvalidation">
 
 	SCREENSHOT FOR FORM2 :-
 
