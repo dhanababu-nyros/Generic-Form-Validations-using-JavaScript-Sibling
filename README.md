@@ -25,7 +25,7 @@ THE APPLICATION CONSISTS:
 
 	
 	validation.js :- This had been existed in the js folder of the application that is linked through 			the html file.This consists of the generic validation functions that have been 			applied to any of the form elements.
-
+<img style="max-width:100%;" src="https://github.com/bheema-nyros/Generic-JavaScript-Form-Validation-Functions.git/raw/master/Screen-shot-of-form.bmp" alt="formvalidation" title="formvalidation">
 
 
 
