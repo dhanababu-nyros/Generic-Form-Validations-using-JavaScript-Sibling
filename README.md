@@ -32,7 +32,7 @@ THE APPLICATION CONSISTS:
 
 
 
-<img style="max-width:100%;" src="https://github.com/dhanababu-nyros/Generic-Form-Validations-using-JavaScript-Sibling/blob/master/Screenshot%20form2.png" alt="formvalidation" title="formvalidation">
+
 
 
 
